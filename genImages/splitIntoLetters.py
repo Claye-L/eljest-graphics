@@ -14,6 +14,7 @@ for row in range(0,6):
 		
 teamimagepaths = listdir('subimages')
 
+#countryballs
 counter = 0
 for path in teamimagepaths:
 	img = Image.open('subimages\\'+path)
@@ -25,3 +26,16 @@ for path in teamimagepaths:
 		ball = img.crop((left,top,right,bottom))
 		ball.save('countryballs\\' + str(counter) + '.png')
 		counter += 1
+		
+counter = 0
+for path in teamimagepaths:
+	img = Image.open('subimages\\'+path)
+	for row in range(0,5):
+		for column in range(0,11):
+			left = 34 + 12*column
+			right = 47 + 12*column
+			top= 73 + row * 20
+			bottom = 89 + row * 20
+			character = img.crop((left,top,right,bottom))
+			character.save('characters\\' + str(counter) + '.png')
+			counter += 1
