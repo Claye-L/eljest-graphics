@@ -23,4 +23,4 @@ for path in imgpaths:
 
         points = [(17 - i,17),(17-i,17- length + 1)]
         drawer.line(points,fill=transparent)
-    img.save('countries\\' + path)
+    img.save('country_sources\\' + path)
