@@ -10,7 +10,9 @@ for folder in folderstomake:
 from splitIntoLetters import split_into_letters
 from isolateuniquecountries import isolate_unique_countries
 from cropcountryballs import crop_country_balls
+from isolatecharacters import isolate_characters
 
 split_into_letters()
 crop_country_balls()
 isolate_unique_countries()
+isolate_characters()
