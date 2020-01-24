@@ -17,4 +17,16 @@ for i in range(len(names)):
     draw_country_ball(img,(4,i * row_spacing),country)
     draw_string(img,(26,i*row_spacing),name,white)
 img.save('demo.png')
-img.show()
+#img.show()
+
+gif_images = list()
+#gif making
+for i in range(len(names)):
+	country = country_codes[i]
+	name = names[i]
+	img = Image.new('RGBA',(140,20),ImageColor.getcolor('black','RGBA'))
+	draw_country_ball(img,(4,0),country)
+	draw_string(img,(26,0),name,white)
+	gif_images.append(img)
+
+img.save('demo.gif', save_all=True, append_images=gif_images, optimize=False, duration=320, loop=0)

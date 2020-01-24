@@ -3,7 +3,7 @@ from os import listdir
 
 def split_into_letters():
 	baseImg = Image.open('CSGORosters_200121.png')
-
+	counter = 0
 	#split into team rectangles
 	for row in range(0,6):
 		for column in range(0,10):
@@ -11,8 +11,8 @@ def split_into_letters():
 			left = column*176
 			top = row*176
 			teamImg = img.crop((left,top,left + 177,top + 177))
-			teamImg.save('subimages\\{0}_{1}.png'.format(row,column))
-			
+			teamImg.save('subimages\\{0}.png'.format(counter))
+			counter += 1
 	teamimagepaths = listdir('subimages')
 
 	#countryballs
