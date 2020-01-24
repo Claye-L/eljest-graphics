@@ -127,6 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-/countryballs
-/subimages
-/countries
+genImages/countryballs/
+genImages/subimages/
+genImages/countries/
+genImages/characters/
+genImages/characters_big/
+genImages/characters_source/
+genImages/country_sources/
