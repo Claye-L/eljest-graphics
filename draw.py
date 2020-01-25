@@ -1,4 +1,5 @@
 from PIL import Image, ImageColor
+from enum import Enum
 import os 
 import numpy as np
 dir_path = os.path.dirname(os.path.realpath(__file__)) + "\\genImages"
@@ -7,10 +8,15 @@ transparent = (0,0,0,0)
 country_size =(18,18)
 character_size = (13,16)
 
-def get_character_path(char):
-    return dir_path + "\\characters\\" + char +'.png'
+class FontSize(Enum):
+    Normal = ""
+    Big = "_big"
+def get_character_path(char, fontsize):
+    return dir_path + "\\characters" + fontsize.value + "\\" + char +'.png'
 def get_country_path(country):
     return dir_path + "\\countries\\" + country +'.png'
+
+
 
 def replace_black(image, color):
     #code copied from https://stackoverflow.com/questions/3752476/python-pil-replace-a-single-rgba-color
@@ -22,8 +28,8 @@ def replace_black(image, color):
     im2 = Image.fromarray(data)
     return im2
 
-def draw_character(image, xy, char, color):
-    cimg = Image.open(get_character_path(char))
+def draw_character(image, xy, char, color, fontsize = FontSize.Normal):
+    cimg = Image.open(get_character_path(char,fontsize))
     if(color is not None):
         cimg = replace_black(cimg,color)
     image.paste(cimg,xy,cimg)
@@ -34,7 +40,7 @@ def draw_country_ball(image,xy, country):
     image.paste(cimg,xy,cimg)
     return
 
-def draw_string(image,xy,string, color=None):
+def draw_string(image,xy,string, color=None, fontsize = FontSize.Normal ):
     for i in range(len(string)):
         char = string[i]
         if(char == ' '):

@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image, ImageDraw
 import os
 
 def isolate_big_characters():
@@ -11,6 +11,8 @@ def isolate_big_characters():
 	'chaos','btrg','ep','avant','mythic','riot','unique','nfinit'
 	,'euni','nemiga','ago']
 
+	transparent = (0,0,0,0)
+	black = (0,0,0,255)
 	char_height = 31
 	char_width = 24
 
@@ -30,7 +32,13 @@ def isolate_big_characters():
 			if(os.path.isfile(filename)):
 				continue
 			left =first_char_start + char_width * j
-			print(team[j])
-			print(left)
 			charimg = img.crop((left, 18, left + char_width, 18+ char_height))
+			bgcolor = charimg.getpixel((0,0))
+			drawer = ImageDraw.Draw(charimg)
+			for i in range(charimg.size[0]):
+				for j in range(charimg.size[1]):
+					if charimg.getpixel((i,j)) == bgcolor:
+						drawer.point((i,j), fill = transparent)
+					else:
+						drawer.point((i,j), fill = black)
 			charimg.save(filename)

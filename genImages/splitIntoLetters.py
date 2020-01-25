@@ -1,5 +1,5 @@
 from PIL import Image
-from os import listdir
+import os
 
 def split_into_letters():
 	baseImg = Image.open('CSGORosters_200121.png')
@@ -13,7 +13,7 @@ def split_into_letters():
 			teamImg = img.crop((left,top,left + 177,top + 177))
 			teamImg.save('subimages\\{0}.png'.format(counter))
 			counter += 1
-	teamimagepaths = listdir('subimages')
+	teamimagepaths = os.listdir('subimages')
 
 	#countryballs
 	counter = 0
@@ -29,7 +29,7 @@ def split_into_letters():
 			counter += 1
 			
 	counter = 0
-	for path in teamimagepaths:
+	for path in sorted(teamimagepaths, key=lambda x : int(os.path.splitext(os.path.basename(x))[0])):
 		img = Image.open('subimages\\'+path)
 		for row in range(0,5):
 			for column in range(0,11):
