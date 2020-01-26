@@ -17,7 +17,7 @@ def split_into_letters():
 
 	#countryballs
 	counter = 0
-	for path in teamimagepaths:
+	for path in sorted(teamimagepaths, key=lambda x : int(os.path.splitext(os.path.basename(x))[0])):
 		img = Image.open('subimages\\'+path)
 		for row in range(0,5):
 			left = 15
