@@ -1,13 +1,15 @@
 [
     {
-        "team":"Excel",
+        "team":"excel",
+        "fill":"#ffffff",
+        "color":"#e86a09",
         "players" : [
             {
                 "country":"kr",
                 "name":"expect"
             },
             {
-                "country":"uk",
+                "country":"gb",
                 "name":"caedrel"
             },
             {
@@ -30,6 +32,8 @@
     },
     {
         "team":"fnatic",
+        "fill":"#000000",
+        "color":"#e86a09",
         "players":[
             {
                 "country":"be",
@@ -37,10 +41,10 @@
             },
             {
                 "country":"pl",
-                "name":"selfmade",
+                "name":"selfmade"
             },
             {
-                "country":"slovenia",
+                "country":"sk",
                 "name":"nemesis"
             },
             {
@@ -48,12 +52,284 @@
                 "name":"rekkles"
             },
             {
-                "country":"bl",
+                "country":"bg",
                 "name":"hylissang"
             },
             {
-                "country":"es",
+                "country":"unknown",
                 "name":"mithy"
+            }
+        ]
+    },
+    {
+        "team":"schalke",
+        "color":"#ffffff",
+        "fill":"#0060a9",
+        "players":[
+            {
+                "name":"odoamne",
+                "country":"unknown"
+            },
+            {
+                "name":"gilius",
+                "country":"de"
+            },
+            {
+                "name":"abbedagge",
+                "country":"de"
+            },
+            {
+                "name":"forg1ven",
+                "country":"unknown"
+            },
+            {
+                "name":"dreams",
+                "country":"kr"
+            },
+            {
+                "name":"dylanfalco",
+                "country":"ca"
+            }
+        ]
+    },
+    {
+        "team":"g2",
+        "color":"#ffffff",
+        "fill":"#000000",
+        "players":[
+            {
+                "name":"wunder",
+                "country":"dk"
+            },
+            {
+                "name":"jankos",
+                "country":"pl"
+            },
+            {
+                "name":"perkz",
+                "country":"unknown"
+            },
+            {
+                "name":"caps",
+                "country":"dk"
+            },
+            {
+                "name":"mikyx",
+                "country":"sk"
+            },
+            {
+                "name":"grabbz",
+                "country":"de"
+            }
+        ]
+    },
+    {
+        "team":"madlions",
+        "color":"#ffffff",
+        "fill":"#D7B257",
+        "players":[
+            {
+                "name":"orome",
+                "country":"unknown"
+            },
+            {
+                "name":"shadow",
+                "country":"it"
+            },
+            {
+                "name":"humanoid",
+                "country":"cz"
+            },
+            {
+                "name":"carzzy",
+                "country":"cz"
+            },
+            {
+                "name":"kaiser",
+                "country":"de"
+            },
+            {
+                "name":"mac",
+                "country":"gb"
+            },
+            {
+                "name":"kaas",
+                "country":"be"
+            }
+        ]
+    },
+    {
+        "team":"misfits",
+        "color":"#000000",
+        "fill":"#921C2C",
+        "players":[
+            {
+                "name":"dan dan",
+                "country":"unknown"
+            },
+            {
+                "name":"razork",
+                "country":"unknown"
+            },
+            {
+                "name":"febiven",
+                "country":"nl"
+            },
+            {
+                "name":"bvoy",
+                "country":"kr"
+            },
+            {
+                "name":"denyk",
+                "country":"cz"
+            },
+            {
+                "name":"jandro",
+                "country":"unknown"
+            },
+            {
+                "name":"amazing",
+                "country":"de"
+            }
+        ]
+    },
+    {
+        "team":"origen",
+        "color":"#000000",
+        "fill":"#ffffff",
+        "players":[
+            {
+                "name":"alphari",
+                "country":"gb"
+            },
+            {
+                "name":"xerxe",
+                "country":"unknown"
+            },
+            {
+                "name":"nukeduck",
+                "country":"no"
+            },
+            {
+                "name":"upset",
+                "country":"de"
+            },
+            {
+                "name":"destiny",
+                "country":"nz"
+            },
+            {
+                "name":"guilhoto",
+                "country":"unknown"
+            },
+            {
+                "name":"kayys",
+                "country":"us"
+            }
+        ]
+    },
+    {
+        "team":"rogue",
+        "color":"#FDB713",
+        "fill":"#2D97D3",
+        "players":[
+            {
+                "name":"finn",
+                "country":"se"
+            },
+            {
+                "name":"inspired",
+                "country":"pl"
+            },
+            {
+                "name":"larssen",
+                "country":"se"
+            },
+            {
+                "name":"hans sama",
+                "country":"fr"
+            },
+            {
+                "name":"vander",
+                "country":"pl"
+            },
+            {
+                "name":"fredy122",
+                "country":"gb"
+            },
+            {
+                "name":"blumingan",
+                "country":"se"
+            }
+        ]
+    },
+    {
+        "team":"SK",
+        "color":"#ffffff",
+        "fill":"#000000",
+        "players":[
+            {
+                "name":"sacre",
+                "country":"unknown"
+            },
+            {
+                "name":"trick",
+                "country":"kr"
+            },
+            {
+                "name":"jenax",
+                "country":"de"
+            },
+            {
+                "name":"crownshot",
+                "country":"sk"
+            },
+            {
+                "name":"limit",
+                "country":"unknown"
+            },
+            {
+                "name":"unlimited",
+                "country":"bg"
+            },
+            {
+                "name":"kanani",
+                "country":"unknown"
+            }
+        ]
+    },
+    {
+        "team":"vitality",
+        "color":"#F6CA33",
+        "fill":"#ffffff",
+        "players":[
+            {
+                "name":"cabochard",
+                "country":"fr"
+            },
+            {
+                "name":"skeanz",
+                "country":"fr"
+            },
+            {
+                "name":"saken",
+                "country":"fr"
+            },
+            {
+                "name":"comp",
+                "country":"unknown"
+            },
+            {
+                "name":"jactroll",
+                "country":"pl"
+            },
+            {
+                "name":"duke",
+                "country":"fr"
+            },
+            {
+                "name":"mephisto",
+                "country":"fr"
             }
         ]
     }
