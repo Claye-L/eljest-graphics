@@ -1,8 +1,9 @@
 [
     {
-        "team":"Astralis",
-        "fill":"#ffffff",
-        "color":"#ff0000",
+        "team":		"Astralis",
+		"abrv":		"ast",
+        "fill":		"#f5323c",
+        "color":	"#ffffff",
         "players": [
             {
                 "country":"dk",
@@ -10,7 +11,7 @@
             },
             {
                 "country":"dk",
-                "name":"magisk"
+                "name":"Magisk"
             },
             {
                 "country":"dk",
@@ -18,7 +19,7 @@
             },
             {
                 "country":"dk",
-                "name":"xyp9x"
+                "name":"Xyp9x"
             },
             {
                 "country":"dk",
@@ -27,56 +28,282 @@
         ]
     },
     {
-        "team":"heroic",
-        "fill":"#ffffff",
-        "color":"#ff0000",
+        "team":		"fnatic",
+		"abrv":		"fnatic",
+        "fill":		"#080808",
+        "color":	"#ff5900",
         "players": [
             {
-                "country":"dk",
-                "name":"snappi"
+                "country":"se",
+                "name":"Golden"
             },
             {
-                "country":"dk",
-                "name":"stavn"
+                "country":"se",
+                "name":"flusha"
             },
             {
-                "country":"dk",
-                "name":"aizy"
+                "country":"se",
+                "name":"Brollan"
             },
             {
-                "country":"dk",
-                "name":"msl"
+                "country":"se",
+                "name":"KRiMZ"
             },
             {
-                "country":"dk",
-                "name":"cajunb"
+                "country":"se",
+                "name":"JW"
             }
         ]
     },
-    {
-        "team":"North",
-        "fill":"#ffffff",
-        "color":"#ff0000",
+	{
+        "team":		"mousesports",
+		"abrv":		"mouz",
+        "fill":		"#bb0639",
+        "color":	"#ffffff",
         "players": [
             {
                 "country":"dk",
-                "name":"gade"
+                "name":"karrigan"
+            },
+            {
+                "country":"tr",
+                "name":"woxic"
+            },
+            {
+                "country":"sk",
+                "name":"frozen"
+            },
+            {
+                "country":"ee",
+                "name":"ropz"
+            },
+            {
+                "country":"nl",
+                "name":"chrisJ"
+            }
+        ]
+    },
+	{
+        "team":		"Team Liquid",
+		"abrv":		"liquid",
+        "fill":		"#ffffff",
+        "color":	"#061640",
+        "players": [
+            {
+                "country":"us",
+                "name":"nitr0"
+            },
+            {
+                "country":"us",
+                "name":"EliGE"
+            },
+            {
+                "country":"us",
+                "name":"Stewie2K"
+            },
+            {
+                "country":"ca",
+                "name":"Twistzz"
+            },
+            {
+                "country":"ca",
+                "name":"NAF"
+            }
+        ]
+    },
+	{
+        "team":		"Evil Geniuses",
+		"abrv":		"EG",
+        "fill":		"#13294b",
+        "color":	"#ffffff",
+        "players": [
+            {
+                "country":"ca",
+                "name":"stanislaw"
+            },
+            {
+                "country":"us",
+                "name":"tarik"
+            },
+            {
+                "country":"us",
+                "name":"Ethan"
+            },
+            {
+                "country":"us",
+                "name":"Brehze"
+            },
+            {
+                "country":"bg",
+                "name":"CeRq"
+            }
+        ]
+    },
+	{
+        "team":		"100 Thieves",
+		"abrv":		"100T",
+        "fill":		"#ffffff",
+        "color":	"#ea3131",
+        "players": [
+            {
+                "country":"au",
+                "name":"AZR"
+            },
+            {
+                "country":"no",
+                "name":"jkaem"
+            },
+            {
+                "country":"au",
+                "name":"jks"
+            },
+            {
+                "country":"au",
+                "name":"liazz"
+            },
+            {
+                "country":"nz",
+                "name":"Gratata"
+            }
+        ]
+    },
+	{
+        "team":		"Vitality",
+		"abrv":		"Vit",
+        "fill":		"#ffc72c",
+        "color":	"#111111",
+        "players": [
+            {
+                "country":"fr",
+                "name":"shox"
+            },
+            {
+                "country":"fr",
+                "name":"ZyWoo"
+            },
+            {
+                "country":"fr",
+                "name":"apEX"
+            },
+            {
+                "country":"fr",
+                "name":"RpK"
+            },
+            {
+                "country":"fr",
+                "name":"ALEX"
+            }
+        ]
+    },
+	{
+        "team":		"Natus Vincere",
+		"abrv":		"Na´Vi",
+        "fill":		"#111111",
+        "color":	"#fff200",
+        "players": [
+            {
+                "country":"ru",
+                "name":"Boombl4"
+            },
+            {
+                "country":"ua",
+                "name":"s1mple"
+            },
+            {
+                "country":"ru",
+                "name":"flamie"
+            },
+            {
+                "country":"ru",
+                "name":"Perfecto"
+            },
+            {
+                "country":"ru",
+                "name":"electronic"
+            }
+        ]
+    },
+	{
+        "team":		"Ninjas in Pyjamas",
+		"abrv":		"NiP",
+        "fill":		"#a98c66",
+        "color":	"#12191c",
+        "players": [
+            {
+                "country":"se",
+                "name":"Plopski"
+            },
+            {
+                "country":"se",
+                "name":"twist"
+            },
+            {
+                "country":"se",
+                "name":"Lekr0"
+            },
+            {
+                "country":"se",
+                "name":"REZ"
+            },
+            {
+                "country":"se",
+                "name":"nawwk"
+            }
+        ]
+    },
+	{
+        "team":		"FaZe Clan",
+		"abrv":		"FaZe",
+        "fill":		"#e43d30",
+        "color":	"#111111",
+        "players": [
+            {
+                "country":"no",
+                "name":"rain"
+            },
+            {
+                "country":"ba",
+                "name":"NiKo"
+            },
+            {
+                "country":"se",
+                "name":"olofm"
+            },
+            {
+                "country":"lv",
+                "name":"broky"
+            },
+            {
+                "country":"br",
+                "name":"coldzera"
+            }
+        ]
+    },
+	{
+        "team":		"OG",
+		"abrv":		"OG",
+        "fill":		"#1e2c4e",
+        "color":	"#f0f0ff",
+        "players": [
+            {
+                "country":"fi",
+                "name":"Aleksib"
+            },
+            {
+                "country":"fr",
+                "name":"NBK"
             },
             {
                 "country":"dk",
-                "name":"kjaerbye"
+                "name":"valde"
             },
             {
-                "country":"dk",
-                "name":"aizy"
+                "country":"jo",
+                "name":"ISSAA"
             },
             {
-                "country":"dk",
-                "name":"msl"
-            },
-            {
-                "country":"dk",
-                "name":"cajunb"
+                "country":"pl",
+                "name":"mantuu"
             }
         ]
     }

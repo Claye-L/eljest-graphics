@@ -37,6 +37,10 @@ def draw_character(image, xy, char, color, fontsize = FontSize.Normal):
     try:
         cimg = Image.open(get_character_path(char,fontsize))
     except FileNotFoundError:
+        print(f"file not found {char}")
+        return
+    except OSError:
+        print(f"oserror {char}")
         return
     if(color is not None):
         cimg = replace_black(cimg,color)
@@ -44,7 +48,14 @@ def draw_character(image, xy, char, color, fontsize = FontSize.Normal):
     return 
 
 def draw_country_ball(image,xy, country):
-    cimg = Image.open(get_country_path(country))
+    try:
+        cimg = Image.open(get_country_path(country))
+    except FileNotFoundError:
+        print(f"file not found {country}")
+        return
+    except OSError:
+        print(f"oserror {country}")
+        return
     image.paste(cimg,xy,cimg)
     return
 
